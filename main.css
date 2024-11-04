@@ -1,0 +1,107 @@
+body
+{
+    background-color: rgb(28, 2, 52);
+    color: ghostwhite;
+}
+nav
+{
+    height: 100px;
+    width: 200px;
+    padding: 5px;
+    line-height: 30px;
+    margin-left: 550px;
+}
+footer
+{
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: rgb(0, 54, 101);
+    color: ghostwhite;
+
+}
+#memeImage
+{
+    margin-top: 5px;
+    width: 500px;
+    border-style: groove;
+    align-items: center;
+}
+
+h1
+{
+    text-align: center;
+    margin-left: 50px;
+    color: ghostwhite;
+    text-transform: uppercase;
+    text-shadow: black;
+}
+button
+{
+    color: chartreuse;
+    background-color: black;
+    border-color: ghostwhite;
+    border-style: groove;
+    cursor: crosshair;
+    height: 45px;
+    width: 90px;
+    border-radius: 15px;
+    float: left;
+}
+h2
+{
+    color: chartreuse;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+form
+{
+    text-align: left;
+    background-color: chartreuse;
+    color: black;
+    border-style: ridge;
+    border-width: 50px;
+    border-color: black;
+}
+p
+{
+    text-align: center;
+    color: ghostwhite;
+    text-transform: uppercase;
+    text-decoration: solid;
+    margin-top: 20px;
+    align-self: center;
+}
+a
+{
+    color: ghostwhite;
+    text-transform: uppercase;
+    text-decoration: solid;    
+}
+audio   
+{
+    margin-left: 450px;
+    background-color: chartreuse;
+    padding: 5px;    
+}
+h3
+{
+    align-content: center;
+    align-self: center;
+    margin-left: 450px;
+}
+p1
+{
+    text-align: center;
+    color: ghostwhite;
+    text-transform: uppercase;
+    text-decoration: solid;
+    margin-left: 550px;
+}
+p2
+{
+    text-align: center;
+    color: ghostwhite;
+    margin-left: 575px;
+    font-size: x-large;    
+}
