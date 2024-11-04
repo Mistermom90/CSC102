@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src = "Make_Model_Year.js"></script>
+<link rel="stylesheet" href="main.css">
+<body>
+    <!--adding a form to my Index for User interface.
+        Bernard King
+        03NOV24
+        -->
+        <form id = "inputForm" onsubmit = "return false">
+            Make Name : <input type = "text" id = "makeString"/>
+            <br>
+            Model Name : <input type = "text" id = "modelString"/>
+            <br>
+            Year : <input type = "number" id = "yearString"/>
+            <br>
+            <input type = "submit" onclick = "validate()"/>
+         <!-- still can not get my validate to work for my correct/incorrect answer
+          (switche my if and else and it is working now)
+          Bernard King
+          03NOV24 Forms update          
+         -->   
+        </form>
+        <p id = "inputStatus"> Status of Vehicle Input</p>
+</body>
+<footer>
+    Copyright 2024 BWK3 <br>
+    We all started somewhere
+</footer>
+</html>
